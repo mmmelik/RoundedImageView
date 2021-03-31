@@ -62,7 +62,6 @@ dependencies {
 ## Usage
 
 `RoundedImageView` extends `ImageView` so all functions of `ImageView` are available for `RoundedImageView`.
-In `RoundedImageView` XML attribute ```xml android:adjustViewBounds``` set to **true** by default. If it cause unintended behaviour of the view override with ```xml android:adjustViewBounds="false"```.
 
 ### Java
 ___
@@ -114,6 +113,14 @@ ___
         app:radius="50dp"
         app:bottomRightRadius="0dp"/>
 ```
+
+## Troubleshooting
+
+In `RoundedImageView` XML attribute `android:adjustViewBounds` set to **true** by default. If it cause unintended behaviour of the view override with `android:adjustViewBounds="false"`.
+
+`RoundedImageView` does not manipulate drawable of the view. Only clips out the corners of the view. So make sure drawable fully wrapped by the views borders.
+
+
 
 
 <!-- ROADMAP -->
