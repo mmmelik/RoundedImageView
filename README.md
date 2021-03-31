@@ -26,7 +26,7 @@
 
 [![Product Name Screen Shot][product-screenshot]]()
 
-This library allows you to create pictures with soft edges that are pleasing to the eye.
+This library allows you to create ImageViews with soft edges that are pleasing to the eye.
 
 
 ### Built With
