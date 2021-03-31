@@ -7,26 +7,32 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     android:gravity="center_horizontal">
+
     <com.appbroker.roundedimageview.RoundedImageView
         android:id="@+id/roundedImageView"
         android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:layout_height="150dp"
         android:src="@drawable/free"
-        app:radius="50dp"/>
+        app:radius="50dp"
+        android:layout_margin="20dp"/>
+
     <com.appbroker.roundedimageview.RoundedImageView
         android:id="@+id/roundedImageView2"
         android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:layout_height="150dp"
         android:src="@drawable/free"
         app:topLeftRadius="10dp"
         app:topRightRadius="20dp"
         app:bottomRightRadius="30dp"
-        app:bottomLeftRadius="40dp" />
+        app:bottomLeftRadius="40dp"
+        android:layout_margin="20dp"/>
+
     <com.appbroker.roundedimageview.RoundedImageView
         android:id="@+id/roundedImageView3"
         android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:layout_height="150dp"
         android:src="@drawable/free"
         app:radius="50dp"
-        app:bottomRightRadius="0dp"/>
+        app:bottomRightRadius="0dp"
+        android:layout_margin="20dp"/>
 </LinearLayout>
