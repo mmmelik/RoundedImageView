@@ -118,7 +118,7 @@ ___
 
 In `RoundedImageView` XML attribute `android:adjustViewBounds` set to **true** by default. If it cause unintended behaviour of the view override with `android:adjustViewBounds="false"`.
 
-`RoundedImageView` does not manipulate drawable of the view. Only clips out the corners of the view. So make sure drawable fully wrapped by the views borders.
+`RoundedImageView` does not manipulate drawable of the view. Only clips out the corners of the view. So make sure you have fully wrapped drawable with the views borders.
 
 
 
