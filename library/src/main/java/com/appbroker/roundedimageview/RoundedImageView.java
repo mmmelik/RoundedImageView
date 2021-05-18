@@ -51,7 +51,6 @@ public class RoundedImageView extends androidx.appcompat.widget.AppCompatImageVi
 
     @Override
     protected void onDraw(Canvas canvas) {
-        getDrawable().copyBounds();
         Path path=new Path();
         RectF mainRectF = new RectF(0, 0, getWidth(), getHeight());
         path.addRoundRect(mainRectF,radii,Path.Direction.CW);
