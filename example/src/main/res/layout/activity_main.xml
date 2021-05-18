@@ -34,5 +34,6 @@
         android:src="@drawable/free"
         app:radius="50dp"
         app:bottomRightRadius="0dp"
-        android:layout_margin="20dp"/>
+        android:layout_margin="20dp"
+        android:adjustViewBounds="false"/>
 </LinearLayout>
