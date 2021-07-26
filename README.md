@@ -54,7 +54,7 @@ allprojects {
 
 ```gradle
 dependencies {
-  implementation 'com.github.mmmelik:RoundedImageView:v1.0.0'
+  implementation 'com.github.mmmelik:RoundedImageView:v1.0.1'
 }
 ```
 
